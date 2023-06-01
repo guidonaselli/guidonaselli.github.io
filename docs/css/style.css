@@ -199,10 +199,10 @@ video::-webkit-media-controls {
 }
 
 .cd-slider-nav ul li h6 {
-  font-size: 15px;
+  font-size: 13px;
   text-transform: uppercase;
   text-align: center;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--secondary);
   margin-top: 15px;
 }
@@ -691,8 +691,14 @@ video::-webkit-media-controls {
 }
 
 .left-info-title {
-  font-weight: 800;
+  font-weight: 700;
   font-size: 2em;
+  margin-block: 2rem;
+  color: var(--primary);
+}
+
+.left-info-text{
+  font-weight: 400;
 }
 
 .right-info {
