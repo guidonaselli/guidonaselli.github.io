@@ -784,6 +784,11 @@ footer a {
 
   }
 
+  .home-logo{
+    height: 25rem;
+    margin-top: 5rem;
+  }
+
   .overlay{
     background: linear-gradient(var(--dark) 10%, var(--background) 100%);
   }
@@ -931,7 +936,9 @@ footer a {
 
 @media (max-width: 535px) {
 
-  
+  .home-logo{
+    height: 10rem;
+  }
 
   .right-info>img {
     display: none;
