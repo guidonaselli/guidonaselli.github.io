@@ -21,6 +21,8 @@ const nextConfig = {
     },
   },
   output: "export",
+  // Agrega la opción outputFileTracing aquí
+  outputFileTracing: true,
 };
 
 module.exports = nextConfig;
